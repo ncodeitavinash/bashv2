@@ -11,3 +11,6 @@ factorial()
 		echo 1
 	fi
 }
+read x
+factorial $x
+
