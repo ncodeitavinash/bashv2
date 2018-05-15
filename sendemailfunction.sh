@@ -1,5 +1,8 @@
 #!/bin/bash
 # sendEmail Function - mail & exit.
+content="Avinash"
+subject="how are you"
+email_list=avinash.g.s@ncodeit.com
 START=$(date +%s)
 sendEmail() {
 	scripttime=0;
