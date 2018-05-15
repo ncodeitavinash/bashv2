@@ -1,0 +1,8 @@
+#!/bin/bash
+log() {
+     echo [`date +%Y-%m-%d\ %H:%M:%S`] $*
+}
+
+#Call the function as follows instead of simply “echo”ing.
+log "my string to be logged"
+
